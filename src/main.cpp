@@ -43,11 +43,10 @@
 #include "SinricProSwitch.h"
 #include <map>
 
-#define WIFI_SSID         "OPPOA5s"
-#define WIFI_PASS         "12345678"
-#define APP_KEY           "d36d6eed-7ae8-4e88-affd-d8dd8933b9cb"
-#define APP_SECRET        "ec418272-209c-4a88-97d9-3ef5a9295509-6c6de6b7-a6d9-4c76-803b-d6f9f548c5b3"
-
+#define WIFI_SSID         "Nama_WiFi"
+#define WIFI_PASS         "Password_WiFi"
+#define APP_KEY           "your-app-key-here"
+#define APP_SECRET        "your-app-secret-here"
 // comment the following line if you use a toggle switches instead of tactile buttons
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
